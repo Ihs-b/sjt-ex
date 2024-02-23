@@ -1,15 +1,15 @@
+
 .logo{
     display: inline-flex;
     margin: auto;
 }
 
 .logo-img{
-    width: 93.75rem;
+    width: 100%;
     height: 10rem;
 }
 
 nav{
-    /* margin: auto; */
     background-color: rgb(195, 152, 152);
 }
 
@@ -31,15 +31,7 @@ h1 {
     z-index: 1;
 }
 
-section{
-    column-count: 2;
-}
-article{
-    background-color: teal;
-}
-aside{
-    background-color:blue;
-}
+
 
 .fa-solid{
     position: fixed;
@@ -54,3 +46,20 @@ a:active{
 /* a:visited{
     color: black;
 } */
+
+@media screen and (min-width: 431px) {
+    /* body{
+        background-color: pink;
+    } */
+    section{
+        display: inline-flex;
+    }
+    article{
+        /* background-color: teal; */
+        width: 50%;}
+    aside {
+            /* background-color:blue; */
+        width: 50%;
+    }
+}
+
